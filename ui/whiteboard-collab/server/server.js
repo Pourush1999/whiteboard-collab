@@ -16,10 +16,10 @@ io.on('connection', (socket)=> {
 const path = require('path');
 if (process.env.NODE_ENV === 'production') {
   // Serve any static files
-  app.use(express.static(path.join(__dirname, 'whiteboard-collab/build')));
+  app.use(express.static(path.join(__dirname, 'collaborative-whiteboard-master/ui/whiteboard-collab/build')));
 // Handle React routing, return all requests to React app
   app.get('*', function(req, res) {
-    res.sendFile(path.join(__dirname, 'whiteboard-collab/build', 'index.html'));
+    res.sendFile(path.join(__dirname, 'collaborative-whiteboard-master/ui/whiteboard-collab/build', 'index.html'));
   });
 }
 var server_port = process.env.YOUR_PORT || process.env.PORT || 5000;
