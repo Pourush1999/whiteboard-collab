@@ -11,7 +11,7 @@
   "devDependencies": {},
   
   "scripts": {
-    "heroku-postbuild": "cd whiteboard-collab && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "heroku-postbuild": "cd collaborative-whiteboard-master/ui/whiteboard-collab && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
     "start": "node server.js"
   },
   "keywords": [],
