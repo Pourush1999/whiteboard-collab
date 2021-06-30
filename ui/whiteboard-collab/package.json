@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Pourush1999.github.io/whiteboard-collab",
   "name": "whiteboard-collab",
   "proxy": "http://localhost:5000",
   "version": "0.1.0",
@@ -17,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "buildncopy":"npm run build && (cd r build ../collaborative-whiteboard-master/server/)"
+    "buildncopy": "npm run build && (cd r build ../collaborative-whiteboard-master/server/)"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
