@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/whiteboard-collab/static/css/main.afca1a56.chunk.css",
+    "main.js": "/whiteboard-collab/static/js/main.b946b37a.chunk.js",
+    "main.js.map": "/whiteboard-collab/static/js/main.b946b37a.chunk.js.map",
+    "runtime-main.js": "/whiteboard-collab/static/js/runtime-main.047de887.js",
+    "runtime-main.js.map": "/whiteboard-collab/static/js/runtime-main.047de887.js.map",
+    "static/js/2.f5bd8248.chunk.js": "/whiteboard-collab/static/js/2.f5bd8248.chunk.js",
+    "static/js/2.f5bd8248.chunk.js.map": "/whiteboard-collab/static/js/2.f5bd8248.chunk.js.map",
+    "index.html": "/whiteboard-collab/index.html",
+    "precache-manifest.0618f3af7e2dce4e0c29139079658df9.js": "/whiteboard-collab/precache-manifest.0618f3af7e2dce4e0c29139079658df9.js",
+    "service-worker.js": "/whiteboard-collab/service-worker.js",
+    "static/css/main.afca1a56.chunk.css.map": "/whiteboard-collab/static/css/main.afca1a56.chunk.css.map",
+    "static/js/2.f5bd8248.chunk.js.LICENSE.txt": "/whiteboard-collab/static/js/2.f5bd8248.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.047de887.js",
+    "static/js/2.f5bd8248.chunk.js",
+    "static/css/main.afca1a56.chunk.css",
+    "static/js/main.b946b37a.chunk.js"
+  ]
+}
